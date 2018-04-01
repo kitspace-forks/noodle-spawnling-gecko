@@ -1,0 +1,20 @@
+Refs,Value,Footprint,QTY,MFR,MPN,SPR,SPN
+BZ1,Buzzer,Buzzers_Beepers:Buzzer_Murata_PKMCS0909E4000-R1,1,Murata Electronics North America,PKMCS0909E4000-R1,Digikey,490-9647-1-ND
+C5,100nF,Capacitors_SMD:C_0402_NoSilk,1,Samsung Electro-Mechanics,CL05A104KQ5NNNC,Digikey,1276-1442-1-ND
+C4,10uF,Capacitors_SMD:C_0402_NoSilk,1,Murata Electronics North America,GRM155C80J106ME11D,Digikey,490-13233-1-ND
+C3;C2,1uF,Capacitors_SMD:C_0402_NoSilk,2,Samsung Electro-Mechanics,CL05X105KQ5NNNC,Digikey,1276-1754-1-ND
+C1,4.7uF,Capacitors_SMD:C_0402_NoSilk,1,Samsung Electro-Mechanics,CL05A475KQ5NRNC ,Digikey,1276-1481-1-ND
+U1,EFM32HG309,Housings_DFN_QFN:QFN-24-1EP_5x5mm_Pitch0.65mm,1,Silicon Labs ,EFM32HG309F64G-B-QFN24,Digikey,336-3896-ND
+R3;R4,15 Ohm,Resistors_SMD:R_0402_NoSilk,2,Panasonic Electronic Components,ERJ-2RKF15R0X,Digikey,P15.0LCT-ND
+R1;R2,R,Resistors_SMD:R_0402_NoSilk,2,Yageo,RC0402FR-0752R3L,Digikey,YAG3180CT-ND
+BT1,Battery_Cell,coincell_smd:CR2032_holder_smd,1,Linx Technologies Inc. ,BAT-HLD-001,Digikey,BAT-HLD-001-ND
+J5,EXT_PWR_GND,headers-tht:Pin_d1.0mm_L10.0mm_noSilk,1,Amphenol FCI,68000-401HLF,Digikey,609-3466-ND
+J4,EXT_PWR_VDD,headers-tht:Pin_d1.0mm_L10.0mm_noSilk,1,Amphenol FCI,68000-401HLF,Digikey,609-3466-ND
+J7,DEBUG_HEADER,headers_smd:header_smd_0.05pitch_2row_4pin,1,Sullins Connector Solutions,GRPB022VWQS-RC,Digikey,S9012E-02-ND
+J6,LEU0/US0_HEADER,headers_smd:header_smd_0.05pitch_2row_6pin,1,Amphenol FCI,20021121-00006C4LF,Digikey,609-3693-1-ND
+SW1,CAP_TOUCH_BTN,pcb_pads:cap_touch_pads,1,-,-,-,-
+D1;D2,LED,pcb_pads:led_5mm_horizontal_pads,2,Wurth Electronics Inc.,151051SS04000,Digikey,732-11405-ND
+J1,GPIO_PC1_PAD,"pcb_pads:pcb_pad_single_1,5mm",1,-,-,-,-
+J2,GPIO_PE13_PAD,"pcb_pads:pcb_pad_single_1,5mm",1,-,-,-,-
+J3,RESETn_PAD,"pcb_pads:pcb_pad_single_1,5mm",1,-,-,-,-
+J8,USB_MICRO_B,usb_smd:usb_microb_smd_vertical,1,"Molex, LLC",1051330011,Digikey,WM10134CT-ND
