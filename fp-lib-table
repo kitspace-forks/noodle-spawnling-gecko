@@ -1,0 +1,7 @@
+(fp_lib_table
+  (lib (name headers_smd)(type KiCad)(uri "$(KIPRJMOD)/lib/headers_smd.pretty")(options "")(descr ""))
+  (lib (name coincell_smd)(type KiCad)(uri "$(KIPRJMOD)/lib/coincell_smd.pretty")(options "")(descr ""))
+  (lib (name usb_smd)(type KiCad)(uri "$(KIPRJMOD)/lib/usb_smd.pretty")(options "")(descr ""))
+  (lib (name pcb_pads)(type KiCad)(uri "$(KIPRJMOD)/lib/pcb_pads.pretty")(options "")(descr ""))
+  (lib (name headers-tht)(type KiCad)(uri "$(KIPRJMOD)/lib/headers-tht.pretty")(options "")(descr ""))
+)
