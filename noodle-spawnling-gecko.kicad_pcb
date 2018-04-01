@@ -5,7 +5,7 @@
     (no_connects 1)
     (area 36.924999 36.924999 63.075001 63.075001)
     (thickness 1.6)
-    (drawings 34)
+    (drawings 35)
     (tracks 293)
     (zones 0)
     (modules 23)
@@ -847,6 +847,9 @@
     )
   )
 
+  (gr_text "CC-BY-SA 4.0" (at 50 58.4) (layer F.SilkS)
+    (effects (font (size 0.8 0.75) (thickness 0.15)))
+  )
   (gr_text 2 (at 57.5 55.8) (layer F.SilkS)
     (effects (font (size 0.8 0.8) (thickness 0.15)))
   )
