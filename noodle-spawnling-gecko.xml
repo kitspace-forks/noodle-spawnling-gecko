@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/eberle/dev/KICAD/noodle-spawnling-gecko/noodle-spawnling-gecko.sch</source>
+    <date>Mo 02 Apr 2018 12:33:45 CEST</date>
+    <tool>Eeschema 4.0.7-e2-6376~58~ubuntu14.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>noodle-spawnling-gecko.sch</source>
+        <comment number="1" value="Licence: CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)"/>
+        <comment number="2" value="Revision: 0.1"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>pcb_pads:led_5mm_horizontal_pads</footprint>
+      <fields>
+        <field name="MFR">Wurth Electronics Inc.</field>
+        <field name="MPN">151051SS04000</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">732-11405-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9C6B56</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>pcb_pads:led_5mm_horizontal_pads</footprint>
+      <fields>
+        <field name="MFR">Wurth Electronics Inc.</field>
+        <field name="MPN">151051SS04000</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">732-11405-ND</field>
+      </fields>
+      <libsource lib="device" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9C6B76</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0402_NoSilk</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402FR-0752R3L</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">YAG3180CT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9C6BA0</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>R</value>
+      <footprint>Resistors_SMD:R_0402_NoSilk</footprint>
+      <fields>
+        <field name="MFR">Yageo</field>
+        <field name="MPN">RC0402FR-0752R3L</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">YAG3180CT-ND</field>
+      </fields>
+      <libsource lib="device" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9C6C14</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>coincell_smd:CR2032_holder_smd</footprint>
+      <fields>
+        <field name="MFR">Linx Technologies Inc. </field>
+        <field name="MPN">BAT-HLD-001</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">BAT-HLD-001-ND</field>
+      </fields>
+      <libsource lib="device" part="Battery_Cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9C6E83</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>EFM32HG309</value>
+      <footprint>Housings_DFN_QFN:QFN-24-1EP_5x5mm_Pitch0.65mm</footprint>
+      <fields>
+        <field name="MFR">Silicon Labs </field>
+        <field name="MPN">EFM32HG309F64G-B-QFN24</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">336-3896-ND</field>
+      </fields>
+      <libsource lib="efm32hg309" part="EFM32HG309"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9D9159</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <fields>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">1276-1754-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9D93D0</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <fields>
+        <field name="MFR">Murata Electronics North America</field>
+        <field name="MPN">GRM155C80J106ME11D</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">490-13233-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9D968F</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>100nF</value>
+      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <fields>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05A104KQ5NNNC</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">1276-1442-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9D96C2</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>15 Ohm</value>
+      <footprint>Resistors_SMD:R_0402_NoSilk</footprint>
+      <fields>
+        <field name="MFR">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF15R0X</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">P15.0LCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9DA167</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>15 Ohm</value>
+      <footprint>Resistors_SMD:R_0402_NoSilk</footprint>
+      <fields>
+        <field name="MFR">Panasonic Electronic Components</field>
+        <field name="MPN">ERJ-2RKF15R0X</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">P15.0LCT-ND</field>
+      </fields>
+      <libsource lib="device" part="R_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9DA296</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>1uF</value>
+      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <fields>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05X105KQ5NNNC</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">1276-1754-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9DA689</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7uF</value>
+      <footprint>Capacitors_SMD:C_0402_NoSilk</footprint>
+      <fields>
+        <field name="MFR">Samsung Electro-Mechanics</field>
+        <field name="MPN">CL05A475KQ5NRNC </field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">1276-1481-1-ND</field>
+      </fields>
+      <libsource lib="device" part="C_Small"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9DAA65</tstamp>
+    </comp>
+    <comp ref="BZ1">
+      <value>Buzzer</value>
+      <footprint>Buzzers_Beepers:Buzzer_Murata_PKMCS0909E4000-R1</footprint>
+      <fields>
+        <field name="MFR">Murata Electronics North America</field>
+        <field name="MPN">PKMCS0909E4000-R1</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">490-9647-1-ND</field>
+      </fields>
+      <libsource lib="device" part="Buzzer"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5A9E9D9C</tstamp>
+    </comp>
+    <comp ref="SW1">
+      <value>CAP_TOUCH_BTN</value>
+      <footprint>pcb_pads:cap_touch_pads</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPN">-</field>
+      </fields>
+      <libsource lib="switches" part="SW_Push"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABBBB72</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>GPIO_PC1_PAD</value>
+      <footprint>pcb_pads:pcb_pad_single_1,5mm</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPN">-</field>
+      </fields>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABFA079</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>GPIO_PE13_PAD</value>
+      <footprint>pcb_pads:pcb_pad_single_1,5mm</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPN">-</field>
+      </fields>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABFA212</tstamp>
+    </comp>
+    <comp ref="J8">
+      <value>USB_MICRO_B</value>
+      <footprint>usb_smd:usb_microb_smd_vertical</footprint>
+      <fields>
+        <field name="MFR">Molex, LLC</field>
+        <field name="MPN">1051330011</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">WM10134CT-ND</field>
+      </fields>
+      <libsource lib="conn" part="Conn_01x06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABFB07D</tstamp>
+    </comp>
+    <comp ref="J6">
+      <value>LEU0/US0_HEADER</value>
+      <footprint>headers_smd:header_smd_0.05pitch_2row_6pin</footprint>
+      <fields>
+        <field name="MFR">Amphenol FCI</field>
+        <field name="MPN">20021121-00006C4LF</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">609-3693-1-ND</field>
+      </fields>
+      <libsource lib="conn" part="Conn_02x03_Odd_Even"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5ABFCDC0</tstamp>
+    </comp>
+    <comp ref="J7">
+      <value>DEBUG_HEADER</value>
+      <footprint>headers_smd:header_smd_0.05pitch_2row_4pin</footprint>
+      <fields>
+        <field name="MFR">Sullins Connector Solutions</field>
+        <field name="MPN">GRPB022VWQS-RC</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">S9012E-02-ND</field>
+      </fields>
+      <libsource lib="conn" part="Conn_02x02_Odd_Even"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC02ACF</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>RESETn_PAD</value>
+      <footprint>pcb_pads:pcb_pad_single_1,5mm</footprint>
+      <fields>
+        <field name="MFR">-</field>
+        <field name="MPN">-</field>
+        <field name="SPR">-</field>
+        <field name="SPN">-</field>
+      </fields>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC02D18</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>EXT_PWR_VDD</value>
+      <footprint>headers-tht:Pin_d1.0mm_L10.0mm_noSilk</footprint>
+      <fields>
+        <field name="MFR">Amphenol FCI</field>
+        <field name="MPN">68000-401HLF</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">609-3466-ND</field>
+      </fields>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC0395B</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>EXT_PWR_GND</value>
+      <footprint>headers-tht:Pin_d1.0mm_L10.0mm_noSilk</footprint>
+      <fields>
+        <field name="MFR">Amphenol FCI</field>
+        <field name="MPN">68000-401HLF</field>
+        <field name="SPR">Digikey</field>
+        <field name="SPN">609-3466-ND</field>
+      </fields>
+      <libsource lib="conn" part="Conn_01x01"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5AC039A8</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="Battery_Cell">
+      <description>single battery cell</description>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="Buzzer">
+      <description>Buzzer, polar</description>
+      <footprints>
+        <fp>*Buzzer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">BZ</field>
+        <field name="Value">Buzzer</field>
+      </fields>
+      <pins>
+        <pin num="1" name="-" type="passive"/>
+        <pin num="2" name="+" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="C_Small">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x01">
+      <description>Generic connector, single row, 01x01</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x01</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_??x*mm*</fp>
+        <fp>Connector*:*1x??x*mm*</fp>
+        <fp>Pin?Header?Straight?1X*</fp>
+        <fp>Pin?Header?Angled?1X*</fp>
+        <fp>Socket?Strip?Straight?1X*</fp>
+        <fp>Socket?Strip?Angled?1X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_02x02_Odd_Even">
+      <description>Generic connector, double row, 02x02, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x02_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="conn" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*2x??x*mm*</fp>
+        <fp>Connector*:*2x???Pitch*</fp>
+        <fp>Pin_Header_Straight_2X*</fp>
+        <fp>Pin_Header_Angled_2X*</fp>
+        <fp>Socket_Strip_Straight_2X*</fp>
+        <fp>Socket_Strip_Angled_2X*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="efm32hg309" part="EFM32HG309">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">EFM32HG309</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA0" type="input"/>
+        <pin num="2" name="IOVDD_0" type="input"/>
+        <pin num="3" name="PC0" type="input"/>
+        <pin num="4" name="PC1" type="input"/>
+        <pin num="5" name="PB7" type="input"/>
+        <pin num="6" name="PB8" type="input"/>
+        <pin num="7" name="~RESET" type="input"/>
+        <pin num="8" name="PB11" type="input"/>
+        <pin num="9" name="AVDD_2" type="input"/>
+        <pin num="10" name="PB13" type="input"/>
+        <pin num="11" name="PB14" type="input"/>
+        <pin num="12" name="AVDD_0" type="input"/>
+        <pin num="13" name="VDD_DREG" type="input"/>
+        <pin num="14" name="DECOUPLE" type="input"/>
+        <pin num="15" name="USB_VREGI" type="input"/>
+        <pin num="16" name="USB_VREGO" type="input"/>
+        <pin num="17" name="PC14" type="input"/>
+        <pin num="18" name="PC15" type="input"/>
+        <pin num="19" name="PF0" type="input"/>
+        <pin num="20" name="PF1" type="input"/>
+        <pin num="21" name="PF2" type="input"/>
+        <pin num="22" name="IOVDD_5" type="input"/>
+        <pin num="23" name="PE12" type="input"/>
+        <pin num="24" name="PE13" type="input"/>
+        <pin num="25" name="VSS" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="LED">
+      <description>LED generic</description>
+      <footprints>
+        <fp>LED*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="device" part="R_Small">
+      <description>Resistor, small symbol</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_Small</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="switches" part="SW_Push">
+      <description>Push button switch, generic, two pins</description>
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">SW_Push</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="switches">
+      <uri>/usr/share/kicad/library/switches.lib</uri>
+    </library>
+    <library logical="conn">
+      <uri>/usr/share/kicad/library/conn.lib</uri>
+    </library>
+    <library logical="efm32hg309">
+      <uri>/home/eberle/dev/KICAD/noodle-spawnling-gecko/lib/efm32hg309.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(C2-Pad2)">
+      <node ref="U1" pin="16"/>
+      <node ref="C2" pin="2"/>
+    </net>
+    <net code="2" name="VBUS">
+      <node ref="U1" pin="15"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J8" pin="1"/>
+    </net>
+    <net code="3" name="USB_D-">
+      <node ref="R3" pin="1"/>
+      <node ref="J8" pin="2"/>
+    </net>
+    <net code="4" name="USB_D+">
+      <node ref="J8" pin="3"/>
+      <node ref="R4" pin="1"/>
+    </net>
+    <net code="5" name="Net-(R3-Pad2)">
+      <node ref="U1" pin="17"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="6" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="7" name="LEU0_TX/US0_CLK">
+      <node ref="U1" pin="10"/>
+      <node ref="J6" pin="3"/>
+    </net>
+    <net code="8" name="RESETn">
+      <node ref="J3" pin="1"/>
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="9" name="DBG_SWDIO">
+      <node ref="U1" pin="20"/>
+      <node ref="J7" pin="2"/>
+    </net>
+    <net code="10" name="DBG_SWCLK">
+      <node ref="J7" pin="4"/>
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="11" name="BUZZER+">
+      <node ref="U1" pin="21"/>
+      <node ref="BZ1" pin="1"/>
+    </net>
+    <net code="12" name="LEU0_RX/US0_CS">
+      <node ref="U1" pin="11"/>
+      <node ref="J6" pin="4"/>
+    </net>
+    <net code="13" name="US0_RX">
+      <node ref="J6" pin="6"/>
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="14" name="US0_TX">
+      <node ref="J6" pin="5"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="15" name="GPIO-PE13">
+      <node ref="J2" pin="1"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="16" name="GPIO-PC1">
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="17" name="Net-(SW1-Pad1)">
+      <node ref="U1" pin="23"/>
+      <node ref="SW1" pin="1"/>
+    </net>
+    <net code="18" name="Net-(SW1-Pad2)">
+      <node ref="SW1" pin="2"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="19" name="VDD">
+      <node ref="D1" pin="2"/>
+      <node ref="D2" pin="2"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="U1" pin="9"/>
+      <node ref="U1" pin="2"/>
+      <node ref="U1" pin="22"/>
+      <node ref="C4" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="12"/>
+      <node ref="J4" pin="1"/>
+      <node ref="U1" pin="13"/>
+      <node ref="J6" pin="1"/>
+      <node ref="J7" pin="1"/>
+    </net>
+    <net code="20" name="Net-(J8-Pad4)">
+      <node ref="J8" pin="4"/>
+    </net>
+    <net code="21" name="GND">
+      <node ref="C1" pin="1"/>
+      <node ref="BZ1" pin="2"/>
+      <node ref="J5" pin="1"/>
+      <node ref="C5" pin="2"/>
+      <node ref="J8" pin="6"/>
+      <node ref="U1" pin="25"/>
+      <node ref="C3" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="J7" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="J6" pin="2"/>
+      <node ref="J8" pin="5"/>
+    </net>
+    <net code="22" name="Net-(C3-Pad1)">
+      <node ref="U1" pin="14"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="23" name="LED2">
+      <node ref="R2" pin="2"/>
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="24" name="LED1">
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="25" name="Net-(D2-Pad1)">
+      <node ref="D2" pin="1"/>
+      <node ref="R2" pin="1"/>
+    </net>
+    <net code="26" name="Net-(D1-Pad1)">
+      <node ref="R1" pin="1"/>
+      <node ref="D1" pin="1"/>
+    </net>
+  </nets>
+</export>
