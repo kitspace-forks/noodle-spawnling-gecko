@@ -1,6 +1,6 @@
 This is a brain for a [noodle spawnling](http://roboticarts.zoness.com/2017/12/19/birthing-a-noodle-spawnling/).
 
-<img src="doc/front.jpg" title="Rendered view of the PCB front side"></img>
+<img src="doc/front.png" title="Rendered view of the PCB front side"></img>
 
 ## Features
   * Silicon Labs Happy Gecko EFM32HG309 microcontroller (the same one as on the [tomu.im](tomu.im))
