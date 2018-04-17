@@ -4,6 +4,8 @@ This is a brain for a [noodle spawnling](http://roboticarts.zoness.com/2017/12/1
 
 <img src="doc/front.png" width="45%" title="Rendered view of the PCB front side"></img>
 
+I am building a noodle spawnling for myself and also wanted to learn more about programming ARM Cortex uCs, so I made this brain board to do both at the same time.
+
 ## Features
   * Silicon Labs Happy Gecko EFM32HG309 microcontroller (the same one as on the [tomu.im](https://tomu.im))
   * buzzer
